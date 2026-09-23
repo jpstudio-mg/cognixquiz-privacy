@@ -1,12 +1,213 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade - CognixQuiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Política de Privacidade do aplicativo CognixQuiz.">
+  <title>Política de Privacidade - CognixQuiz</title>
+  <style>
+    :root {
+      --bg: #081534;
+      --card: #10265a;
+      --text: #f5f7ff;
+      --muted: #b8c3df;
+      --accent: #f6c744;
+      --link: #7fc8ff;
+      --border: rgba(255,255,255,.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, rgba(37,78,160,.24), transparent 34rem), var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 32px 0 64px; }
+    .hero, .section {
+      background: linear-gradient(180deg, rgba(18,43,99,.96), rgba(12,31,72,.96));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    }
+    .hero { padding: 32px; margin-bottom: 22px; }
+    .badge {
+      display: inline-block;
+      background: rgba(246,199,68,.14);
+      color: var(--accent);
+      border: 1px solid rgba(246,199,68,.30);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: .9rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    h1, h2, h3 { line-height: 1.25; margin-top: 0; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 10px; }
+    h2 { color: var(--accent); font-size: 1.45rem; margin-bottom: 12px; }
+    h3 { font-size: 1.08rem; margin-top: 22px; margin-bottom: 8px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    a { color: var(--link); word-break: break-word; }
+    .section { padding: 26px 28px; margin-bottom: 18px; scroll-margin-top: 16px; }
+    .toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-top: 18px; }
+    .toc a { text-decoration: none; background: rgba(255,255,255,.045); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; }
+    ul { padding-left: 22px; }
+    .notice { border-left: 4px solid var(--accent); background: rgba(246,199,68,.08); padding: 14px 16px; border-radius: 10px; margin: 16px 0; }
+    .contact-box { background: rgba(255,255,255,.045); border: 1px solid var(--border); border-radius: 14px; padding: 16px; }
+    footer { text-align: center; color: var(--muted); padding-top: 12px; font-size: .92rem; }
+    code { color: #ffe38a; background: rgba(0,0,0,.20); padding: 2px 6px; border-radius: 6px; }
+    @media (max-width: 600px) {
+      .hero, .section { padding: 22px 20px; }
+      .container { width: min(100% - 20px, 980px); }
+    }
+  </style>
 </head>
 <body>
-    <h1>Política de Privacidade - CognixQuiz</h1>
-    <p>Página em preparação.</p>
+  <main class="container">
+    <header class="hero">
+      <span class="badge">CognixQuiz</span>
+      <h1>Política de Privacidade</h1>
+      <p>Esta Política de Privacidade explica como o aplicativo <strong>CognixQuiz</strong> trata informações dos usuários, quais serviços de terceiros podem processar dados e quais são os direitos e opções disponíveis aos usuários.</p>
+      <p><strong>Última atualização:</strong> 22 de setembro de 2026</p>
+      <nav class="toc" aria-label="Sumário">
+        <a href="#dados">Dados tratados</a>
+        <a href="#finalidades">Como usamos os dados</a>
+        <a href="#terceiros">Serviços de terceiros</a>
+        <a href="#anuncios">Anúncios</a>
+        <a href="#compras">Compras no Google Play</a>
+        <a href="#retencao">Retenção e segurança</a>
+        <a href="#exclusao-conta">Exclusão da conta</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2>1. Quem somos</h2>
+      <p>O <strong>CognixQuiz</strong> é um aplicativo de perguntas e respostas para Android. Esta Política se aplica ao uso do aplicativo e aos serviços relacionados oferecidos pelo desenvolvedor.</p>
+      <div class="notice"><strong>Antes de publicar:</strong> substitua <code>jpstudio.mg</code> e <code>jpstudio.mg@gmail.com</code> pelas suas informações reais.</div>
+      <p><strong>Responsável pelo aplicativo:</strong> jpstudio.mg<br><strong>Aplicativo:</strong> CognixQuiz</p>
+    </section>
+
+    <section class="section" id="dados">
+      <h2>2. Dados que podem ser tratados</h2>
+      <h3>2.1. Dados de conta e autenticação</h3>
+      <p>Quando o usuário cria uma conta ou entra no CognixQuiz, podem ser tratados dados necessários à autenticação, como endereço de e-mail, identificador da conta e informações técnicas relacionadas ao processo de login.</p>
+      <p>Quando o login é realizado por um provedor externo, como o Google, também podem ser disponibilizados dados básicos da conta autorizados pelo usuário e pelo provedor, como identificador da conta e, quando fornecidos, nome, e-mail e foto de perfil.</p>
+
+      <h3>2.2. Dados de jogo e progresso</h3>
+      <p>O CognixQuiz pode armazenar informações relacionadas ao uso do jogo, como progresso, vidas, saldo de moedas virtuais, recompensas, utilização de recursos do quiz, desafios diários e outras preferências ou estados necessários ao funcionamento do aplicativo.</p>
+      <p>Parte dessas informações pode ser armazenada localmente no dispositivo. Outras informações podem ser associadas à conta do usuário quando necessárias para oferecer recursos sincronizados ou persistentes.</p>
+
+      <h3>2.3. Dados técnicos, de uso e diagnóstico</h3>
+      <p>Serviços integrados ao aplicativo podem processar informações técnicas, como modelo do dispositivo, versão do sistema operacional, versão do aplicativo, endereço IP, identificadores do dispositivo ou de publicidade, eventos de uso, interações com anúncios, registros de falhas e dados de diagnóstico.</p>
+
+      <h3>2.4. Dados de pagamento</h3>
+      <p>Quando compras no aplicativo forem habilitadas, o pagamento será processado pelo <strong>Google Play</strong>. O CognixQuiz não recebe nem armazena diretamente o número completo do cartão ou outros dados completos do meio de pagamento. O aplicativo poderá receber informações necessárias para reconhecer a compra, como o produto adquirido, estado da transação, identificadores da compra e dados necessários para liberar o conteúdo.</p>
+    </section>
+
+    <section class="section" id="finalidades">
+      <h2>3. Como usamos essas informações</h2>
+      <p>Os dados podem ser utilizados para:</p>
+      <ul>
+        <li>criar, autenticar e proteger contas de usuário;</li>
+        <li>permitir o funcionamento do quiz, vidas, moedas, recompensas e desafios;</li>
+        <li>manter o progresso e preferências do jogador;</li>
+        <li>exibir e administrar anúncios, inclusive anúncios premiados;</li>
+        <li>processar e reconhecer compras feitas pelo Google Play, quando esse recurso estiver habilitado;</li>
+        <li>detectar falhas, abusos, fraudes e problemas técnicos;</li>
+        <li>melhorar estabilidade, desempenho, segurança e experiência do aplicativo;</li>
+        <li>cumprir obrigações legais e atender solicitações válidas de autoridades, quando aplicável.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="terceiros">
+      <h2>4. Serviços de terceiros</h2>
+      <p>O CognixQuiz utiliza ou poderá utilizar serviços de terceiros para fornecer determinadas funcionalidades. Esses provedores tratam dados de acordo com seus próprios termos e políticas.</p>
+      <h3>4.1. Supabase</h3>
+      <p>O <strong>Supabase</strong> é utilizado como infraestrutura de backend e autenticação, incluindo recursos relacionados a contas, banco de dados e comunicação entre o aplicativo e o servidor.</p>
+      <p>Política de Privacidade do Supabase: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a></p>
+      <h3>4.2. Google</h3>
+      <p>Serviços do Google podem ser utilizados para autenticação, distribuição do aplicativo, publicidade e compras dentro do aplicativo.</p>
+      <p>Política de Privacidade do Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+    </section>
+
+    <section class="section" id="anuncios">
+      <h2>5. Anúncios e anúncios premiados</h2>
+      <p>O CognixQuiz utiliza o <strong>Google AdMob / Google Mobile Ads</strong> para exibir anúncios. O aplicativo pode oferecer anúncios premiados, nos quais o usuário escolhe voluntariamente assistir a um vídeo ou outro formato de anúncio em troca de uma recompensa dentro do jogo, como vidas ou moedas virtuais.</p>
+      <p>O Google e seus parceiros podem processar dados técnicos e de publicidade para fornecer, medir, limitar frequência, proteger e melhorar anúncios. Dependendo da região, das escolhas de privacidade do usuário e das configurações aplicáveis, os anúncios podem ser personalizados ou não personalizados.</p>
+      <p>Para saber mais sobre como o Google trata dados relacionados a publicidade, consulte: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></p>
+    </section>
+
+    <section class="section" id="moedas">
+      <h2>6. Moedas virtuais e recompensas</h2>
+      <p>O CognixQuiz pode disponibilizar moedas virtuais e outras recompensas obtidas durante o jogo, por desempenho, desafios, anúncios premiados ou, futuramente, por compras dentro do aplicativo.</p>
+      <p>Moedas virtuais e recompensas não possuem valor monetário fora do CognixQuiz, não representam moeda real, não são convertíveis em dinheiro e são destinadas exclusivamente ao uso dentro do aplicativo, de acordo com as regras vigentes do jogo.</p>
+    </section>
+
+    <section class="section" id="compras">
+      <h2>7. Compras pelo Google Play</h2>
+      <p>O CognixQuiz poderá oferecer produtos digitais pagos, como pacotes de moedas, vidas, recursos Premium ou outros benefícios.</p>
+      <p>Quando habilitadas, essas compras serão realizadas por meio do sistema oficial de faturamento do Google Play. O Google será responsável pelo processamento do pagamento conforme os termos aplicáveis à conta do usuário.</p>
+      <p>O aplicativo poderá receber e armazenar os dados necessários para confirmar o direito do usuário ao produto adquirido e restaurar benefícios quando aplicável.</p>
+    </section>
+
+    <section class="section" id="compartilhamento">
+      <h2>8. Compartilhamento de dados</h2>
+      <p>O desenvolvedor não vende dados pessoais dos usuários.</p>
+      <p>Informações podem ser processadas ou compartilhadas com prestadores de serviços necessários ao funcionamento do CognixQuiz, como Supabase e Google, dentro das finalidades descritas nesta Política.</p>
+      <p>Dados também poderão ser divulgados quando isso for necessário para cumprir uma obrigação legal, ordem judicial, solicitação válida de autoridade competente, prevenir fraude ou proteger direitos, segurança e integridade do aplicativo e de seus usuários.</p>
+    </section>
+
+    <section class="section" id="retencao">
+      <h2>9. Retenção e segurança dos dados</h2>
+      <p>Mantemos dados somente pelo período necessário para prestar os serviços do CognixQuiz, cumprir finalidades legítimas descritas nesta Política, proteger o aplicativo e atender obrigações legais aplicáveis.</p>
+      <p>Quando uma conta é excluída, os dados associados à conta serão excluídos ou anonimizados, salvo quando houver necessidade legítima ou obrigação legal de manter determinados registros, por exemplo para segurança, prevenção de fraude, solução de disputas ou cumprimento de exigências legais.</p>
+      <p>São adotadas medidas técnicas e organizacionais razoáveis para proteger informações contra acesso, alteração, perda ou divulgação não autorizados. As comunicações com serviços remotos devem utilizar conexões seguras, como HTTPS.</p>
+      <p>Nenhum método de armazenamento ou transmissão eletrônica é totalmente isento de riscos, portanto não é possível garantir segurança absoluta.</p>
+    </section>
+
+    <section class="section" id="exclusao-conta">
+      <h2>10. Exclusão da conta e dos dados</h2>
+      <p>Usuários que possuam uma conta no CognixQuiz podem solicitar a exclusão da conta e dos dados associados a ela.</p>
+      <div class="contact-box">
+        <p><strong>Para solicitar a exclusão:</strong></p>
+        <p>Envie um e-mail para <a href="mailto:jpstudio.mg@gmail.com?subject=Solicitação%20de%20exclusão%20de%20conta%20-%20CognixQuiz">jpstudio.mg@gmail.com</a> com o assunto <strong>“Solicitação de exclusão de conta - CognixQuiz”</strong>.</p>
+        <p>Informe o endereço de e-mail utilizado na conta para que possamos localizar e validar a solicitação de forma segura.</p>
+      </div>
+      <p>Após a validação da solicitação, a conta e os dados associados serão excluídos, exceto informações que precisem ser mantidas temporariamente por obrigação legal, prevenção de fraude, segurança ou outro motivo legítimo permitido pela legislação aplicável.</p>
+      <p>O CognixQuiz também deve disponibilizar, dentro do próprio aplicativo, um caminho claro para iniciar a exclusão da conta ou acessar esta seção.</p>
+    </section>
+
+    <section class="section">
+      <h2>11. Privacidade de crianças e adolescentes</h2>
+      <p>O CognixQuiz não deve ser utilizado para coletar intencionalmente dados pessoais de crianças de forma incompatível com a legislação e com as políticas aplicáveis do Google Play.</p>
+      <p>Caso o aplicativo seja disponibilizado especificamente para crianças ou para um público que inclua crianças, poderão ser aplicadas regras adicionais de privacidade, publicidade e consentimento, e esta Política poderá ser atualizada para refletir essas exigências.</p>
+    </section>
+
+    <section class="section">
+      <h2>12. Direitos e escolhas do usuário</h2>
+      <p>Dependendo da legislação aplicável, o usuário poderá ter direitos relacionados aos seus dados, como solicitar acesso, correção, exclusão ou informações sobre o tratamento realizado.</p>
+      <p>Solicitações podem ser encaminhadas ao canal de contato indicado nesta Política.</p>
+    </section>
+
+    <section class="section">
+      <h2>13. Alterações nesta Política</h2>
+      <p>Esta Política de Privacidade poderá ser atualizada quando houver mudanças no CognixQuiz, em seus serviços, fornecedores, práticas de tratamento de dados ou requisitos legais.</p>
+      <p>A versão atualizada será disponibilizada nesta mesma página, com a indicação da data da última atualização.</p>
+    </section>
+
+    <section class="section" id="contato">
+      <h2>14. Contato</h2>
+      <p>Em caso de dúvidas sobre esta Política de Privacidade, tratamento de dados ou exclusão de conta, entre em contato:</p>
+      <div class="contact-box">
+        <p><strong>Responsável:</strong> jpstudio.mg<br><strong>Aplicativo:</strong> CognixQuiz<br><strong>E-mail:</strong> <a href="mailto:jpstudio.mg@gmail.com">jpstudio.mg@gmail.com</a></p>
+      </div>
+    </section>
+
+    <footer>© 2026 CognixQuiz. Política de Privacidade.</footer>
+  </main>
 </body>
 </html>
+
